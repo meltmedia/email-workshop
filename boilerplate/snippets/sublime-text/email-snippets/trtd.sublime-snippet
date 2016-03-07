@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+<tr>
+  <td>
+    $0
+  </td>
+</tr>
+]]></content>
+<tabTrigger>trtd</tabTrigger>
+</snippet>

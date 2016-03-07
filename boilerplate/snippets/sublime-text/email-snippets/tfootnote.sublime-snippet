@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+<tr>
+  <td class="footnote">$1</td>
+</tr>
+<!-- end footnote -->
+]]></content>
+<tabTrigger>tfootnote</tabTrigger>
+</snippet>

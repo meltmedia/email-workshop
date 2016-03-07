@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+<tr>
+  <td class="footnote">
+    <table border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td class="li" valign="top"><sup>&#167;</sup></td>
+        <td>${1:Footnote List Example}</td>
+      </tr>
+      <tr>
+        <td class="li" valign="top"><sup>#</sup></td>
+        <td>${2:Footnote List Example}</td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<!-- end footnote list -->
+]]></content>
+<tabTrigger>tfootnotelist</tabTrigger>
+</snippet>

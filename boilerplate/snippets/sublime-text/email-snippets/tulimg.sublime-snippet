@@ -1,0 +1,25 @@
+<snippet>
+  <content><![CDATA[
+<tr>
+  <td class="ul">
+    <table border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td class="bullet" valign="top">${1:<img src="$2" width="$3" height="$4"/>}</td>
+        <td>List Example</td>
+      </tr>
+      <tr>
+        <td class="bullet" valign="top">${1:<img src="$2" width="$3" height="$4"/>}</td>
+        <td>List Example</td>
+      </tr>
+      <tr>
+        <td class="bullet" valign="top">${1:<img src="$2" width="$3" height="$4"/>}</td>
+        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.</td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<!-- end unordered list -->
+]]></content>
+<tabTrigger>tulimg</tabTrigger>
+</snippet>

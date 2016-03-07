@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+<tr>
+  <td class="green-btn pt10 pb20 pr12">
+    <table border="0" align="right" cellpadding="0" cellspacing="0">
+      <tr>
+        <td bgcolor="#abb34b" width="7"><a href="#"><img src="http://prod.campaign-monitor.gene.s3.amazonaws.com/biooncology/zel-com1/btn-left.gif" width="7" height="35"></a></td>
+        <td class="pl5" bgcolor="#abb34b" align="center"><a href="#"><strong>${1:enter content}</strong></a></td>
+        <td><a href="#"><img src="http://prod.campaign-monitor.gene.s3.amazonaws.com/biooncology/zel-com1/btn-right.gif" width="30" height="35"></a></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<!-- End Button -->
+]]></content>
+<tabTrigger>tbutton</tabTrigger>
+</snippet>
