@@ -17,6 +17,9 @@ We'll also be doing some hands on training building an email from scratch!
 1. [Github Account](https://github.com/)
 2. Git installed on computer: [view how to setup Git and Github](https://help.github.com/articles/set-up-git/)
 3. Text Editor (_Recommend [Sublime Text](https://www.sublimetext.com/3)_)
+4. Positive Attitude!
+5. Love for Cage! Nicolas Cage that is
+
 
 ## Helpful Resources 
 
