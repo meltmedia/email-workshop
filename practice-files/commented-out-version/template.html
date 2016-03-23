@@ -1,0 +1,486 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+  <!-- <link href="https://fonts.googleapis.com/css?family=Sigmar+One" data-embed rel="stylesheet" type="text/css"> -->
+
+  <!-- Support Unicode characters  -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <!-- Target IE10 phones -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  <!-- Control layout for mobile browsers -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+  <title>Title goes here</title>
+  <!-- <title>Nicky's House Party</title> -->
+
+  <!-- CSS in this style block will be inlined -->
+  <style type="text/css">
+    /***************************************
+                GLOBAL STYLES
+    ****************************************/
+      
+      .main-td { 
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        color: #000001;
+        line-height: 16px;
+        min-width: 600px;/*android fix*/
+      }
+      
+      /* Header styles */
+
+      /*.h1 { font-size: 52px; line-height: 56px; color: #003479; font-family: 'Sigmar One', sans-serif; font-weight: bold; }*/
+
+      /*.h2 { font-size: 30px; line-height: 34px; color: #000001; font-weight: bold; text-decoration: underline; }*/
+
+      .h3 { font-size: 24px; line-height: 28px; color: #003479; font-weight: bold; }
+      .h4 { font-size: 12px; line-height: 16px; color: #003479; font-weight: bold; }
+      .h5 { font-size: 10px; line-height: 14px; color: #003479; font-weight: bold; }
+
+      .p,
+      .ul { padding-bottom: 15px; }
+
+      /*content paragraph styles*/
+
+      /*.content .p,
+      .content .ul td { font-size: 22px; line-height: 26px; color: #000001; font-weight: bold; }*/
+
+      .li { width: 1px; } /* prevent <td> width from expanding */
+      .ul .li { padding-right: 5px; }
+
+      .ul .ul { padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 10px; }
+      .ul tr:first-child .li + td { width: 100%;}
+
+      .hr {
+        background-color: #b3b3b3;
+        display: block;
+        font-size: 0px;
+        height: 1px;
+        line-height: 0px;
+        padding: 0;
+      }
+      /* horizontal rule */
+ 
+      .footnote,
+      .footnote table { font-size: 10px; line-height: 13px; }
+
+      sup { line-height: 0; font-size: 75%; }
+      .no-underline { text-decoration: none; }
+      .underline { text-decoration: underline; }
+      .bold { font-weight: bold; }
+      .no-link { color: #000001; text-decoration: none; cursor: text; }
+
+      .black { color: #000001; }  
+      .white { color: #ffffff; }
+      /*.purple { color: #5e0778; }*/
+
+      /*.button { font-size: 18px; line-height: 22px; border: 1px solid #5e0778; }*/
+
+      /*.button a { 
+        color: #ffffff;  
+        text-decoration: none; 
+        display: inline-block; 
+        padding-top: 5px; 
+        padding-right: 30px; 
+        padding-left: 30px; 
+        padding-bottom: 5px; 
+        border: 1px solid #5e0778; 
+      }*/
+
+      /*.webversion { font-size: 10px; line-height: 14px; color: #aeb4b7; }*/
+
+      /*.yahoo-table-fix { margin: 0 auto; }*/
+      
+    /***************************************
+                 SPACING STYLES 
+    ****************************************/
+
+      .p0   { padding-top:0;padding-right:0;padding-bottom:0;padding-left:0; }
+      .p5   { padding-top:5px;padding-right:5px;padding-bottom:5px;padding-left:5px; }
+      .p10  { padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px; }
+      .p15  { padding-top:15px;padding-right:15px;padding-bottom:15px;padding-left:15px; }
+      .p20  { padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px; }
+      .p25  { padding-top:25px;padding-right:25px;padding-bottom:25px;padding-left:25px; }
+      .p30  { padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px; }
+      .p35  { padding-top:35px;padding-right:35px;padding-bottom:35px;padding-left:35px; }
+      .p40  { padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px; }
+      /* zero padding on all side*/
+
+      .ptb0  { padding-top:0;padding-bottom:0; }
+      .ptb5  { padding-top:5px;padding-bottom:5px; }
+      .ptb10 { padding-top:10px;padding-bottom:10px; }
+      .ptb15 { padding-top:15px;padding-bottom:15px; }
+      .ptb20 { padding-top:20px;padding-bottom:20px; }
+      .ptb25 { padding-top:25px;padding-bottom:25px; }
+      .ptb30 { padding-top:30px;padding-bottom:30px; }
+      .ptb35 { padding-top:35px;padding-bottom:35px; }
+      .ptb40 { padding-top:40px;padding-bottom:40px; }
+      /* Padding top and bottom */
+
+      .prl0  { padding-right:0;padding-left:0; }
+      .prl5  { padding-right:5px;padding-left:5px; }
+      .prl10 { padding-right:10px;padding-left:10px; }
+      .prl15 { padding-right:15px;padding-left:15px; }
+      .prl20 { padding-right:20px;padding-left:20px; }
+      .prl25 { padding-right:25px;padding-left:25px; }
+      .prl30 { padding-right:30px;padding-left:30px; }
+      .prl35 { padding-right:35px;padding-left:35px; }
+      .prl40 { padding-right:40px;padding-left:40px; }
+      /* Padding left and right */
+
+      .pt0  { padding-top: 0px; }
+      .pt5  { padding-top: 5px; }
+      .pt10 { padding-top: 10px; } 
+      .pt15 { padding-top: 15px; } 
+      .pt20 { padding-top: 20px; } 
+      .pt25 { padding-top: 25px; }
+      .pt30 { padding-top: 30px; }
+      .pt35 { padding-top: 35px; }
+      .pt40 { padding-top: 40px; }
+      /* padding top */
+
+      .pr0  { padding-right: 0px; } 
+      .pr5  { padding-right: 5px; }  
+      .pr10 { padding-right: 10px; }
+      .pr15 { padding-right: 15px; }
+      .pr20 { padding-right: 20px; }
+      .pr25 { padding-right: 25px; }
+      .pr30 { padding-right: 30px; }
+      .pr35 { padding-right: 35px; }
+      .pr40 { padding-right: 40px; }
+      /* padding right */
+
+      .pb5  { padding-bottom: 5px; }
+      .pb0  { padding-bottom: 0px; } 
+      .pb10 { padding-bottom: 10px; }
+      .pb15 { padding-bottom: 15px; }
+      .pb20 { padding-bottom: 20px; }
+      .pb25 { padding-bottom: 25px; }
+      .pb30 { padding-bottom: 30px; }
+      .pb35 { padding-bottom: 35px; }
+      .pb40 { padding-bottom: 40px; }
+      /* padding bottom */
+
+      .pl0  { padding-left: 0px; }
+      .pl5  { padding-left: 5px; }
+      .pl10 { padding-left: 10px; }
+      .pl15 { padding-left: 15px; }
+      .pl20 { padding-left: 20px; }
+      .pl25 { padding-left: 25px; }
+      .pl30 { padding-left: 30px; }
+      .pl35 { padding-left: 35px; }
+      .pl40 { padding-left: 40px; }
+      /* padding left */
+
+    /***************************************
+            CLIENT SPECIFIC STYLES
+    ****************************************/
+
+    .yahoo-table-fix { margin: 0 auto; }
+    /*fixes table width issue in yahoo*/
+
+    /* Use on td's if you need to match line-height. NOTE: Use only on td's with text */
+    .mso-exact { mso-line-height-rule: exactly; }
+
+    .m-hide li{ display: inline; mso-hide:all;}
+    /* Fix Firefox Gmail and Outlook 2007-13 issue */
+
+    .m-hide img { max-height: 0; width: 0; font-size: 0; }
+    /* Used to hide images for mobile */
+
+    .m-hide,
+    .preheader-text { display: none; font-size: 0; max-height: 0; line-height: 0; visibility: hidden;}
+    /* Used to hide elements for mobile */  
+
+    #outlook a {padding:0;} 
+    /* Force Outlook to provide a "view in browser" menu link. */
+
+    body{width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0;} 
+    /* Prevent Webkit and Windows Mobile platforms from changing default font sizes.*/ 
+
+    #backgroundTable {margin:0; padding:0; width:100% !important; line-height: 100% !important;}
+    /* end reset */
+
+    img {display:block; outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; font-size: 10px;} 
+    a img { border:none; }
+    /* Some sensible defaults for images*/
+
+  </style>
+    
+  <!-- CSS in this style block will stay embedded and not inlined -->
+  <style type="text/css" data-embed>
+
+    /***************************************
+                GLOBAL STYLES
+    ****************************************/
+
+    table { font-size: inherit; }
+    /* Prevent user agent from overriding font size e.g. Thunderbird, Lotus Notes 8.5, AOL*/
+
+    * { line-height: inherit; }
+    /* Prevent Outlook.com from overriding line-height */
+  
+    body {
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      color: #000001;
+      line-height: 16px;
+    }
+    /* Render font family properly in Outlook */
+
+    table td {border-collapse: collapse; /*mso-line-height-rule: exactly;*/ }
+    /* Outlook 07, 10 Padding issue fix
+    Bring inline: No.*/
+
+    a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+    }
+    /* Disguises iOS auto links */
+
+    /***************************************
+               MOBILE STYLES
+    ****************************************/
+    
+    @media only screen and (max-width: 37.5em) {
+
+      .main-table { width: 95% !important; }
+      .main-td { min-width: initial !important; }
+
+      .main-table table { width:100% !important; margin: 0 auto !important; }
+      
+      .block, 
+      .content, 
+      .safety { display: block; }
+      /* place content you want stacked here */
+
+      .hide { display:none !important; }
+      /* hide elements for mobile */
+
+      img { max-width: 100% !important; height: auto !important; }
+      /* large images resize down according to their parent container size */
+
+      .m-hide,
+      .m-hide img { 
+        visibility: visible !important;
+        font-size: 100% !important; 
+        display: block !important; 
+        max-height: none !important;
+        line-height: 1.5 !important;
+      }
+
+      .m-hide li { display: list-item !important;}
+
+      /*.h1 { font-size: 28px !important; line-height: 32px !important; }*/
+
+      /*.h2 { font-size: 22px !important; line-height: 26px !important; }*/
+
+      /*.content { padding-left: 20px !important; padding-right: 20px !important; }*/
+
+      /*.m-p20 { padding: 20px !important; }*/
+
+      /*.main-table .rsvp { width: 162px !important; }*/
+
+      /*.m-center { margin: 0 auto !important; }*/
+      
+    }
+  </style>
+
+  <!--[if gte mso 9]>
+    <style>
+      sup { font-size: 100% !important; }
+    </style> 
+  <![endif]-->
+    
+</head>
+<body>
+<!-- <span class="preheader-text">You're invited to Nicky's party! ALL THE TIME! Please RSVP! Come to Nicky's party and don't forget to bring your bounce house!</span> -->
+
+  <table align="center" border="0" cellpadding="0" cellspacing="0" id="backgroundTable" width="100%">
+
+    <tr>
+      <td class="main-td">
+        <table class="yahoo-table-fix main-table" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+
+      <!-- Start Preheader -->
+          <tr>
+            <td class="preheader">
+              <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+
+                <!-- <tr>
+                  <td class="ptb10" align="center">
+                    <a class="webversion" href="#webversion">view web and mobile version</a>
+                  </td>
+                </tr> -->
+
+              </table>
+            </td>
+          </tr>
+      <!-- End Preheader -->
+
+      <!-- Start Header -->
+          <tr>
+            <td class="header">
+              <table bgcolor="#efefef" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+
+                <!-- <tr>
+                  <td class="image">
+                    <img src="http://www.placecage.com/c/600/145" alt="" width="600" height="145"/>
+                  </td>
+                </tr> -->
+
+              </table>
+            </td>
+          </tr>
+      <!-- End Header -->
+
+
+      <!-- Start Content -->
+          <tr>
+            <td class="content" bgcolor="#efefef">
+              <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+
+                  <!-- <tr>
+                    <td class="h1 pt20" align="center">House PARTY!</td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <table class="yahoo-table-fix" align="center" border="0" cellpadding="0" cellspacing="0" width="560">
+                        <tr>
+                          <td class="h2 pt20 pb10">Where:</td>
+                        </tr>
+
+                        <tr>
+                          <td class="p">The Cage Residence:<br /> 100 W. Hollywood Hills Dr. Beverly Hills, CA 90210</td>
+                        </tr>
+
+                        <tr>
+                          <td class="h2 pt20 pb10">When:</td>
+                        </tr>
+
+                        <tr>
+                          <td class="p">ALL THE TIME!</td>
+                        </tr>
+
+                        <tr>
+                          <td class="h2 pt20 pb10">What to bring:</td>
+                        </tr>
+
+                        <tr>
+                          <td class="ul pb30">
+                            <table border="0" cellpadding="0" cellspacing="0">
+                              <tr>
+                                <td class="li" valign="top">&#8226;</td>
+                                <td>Your FACE!</td>
+                              </tr>
+                              <tr>
+                                <td class="li" valign="top">&#8226;</td>
+                                <td>Your Bounce House</td>
+                              </tr>
+                              <tr>
+                                <td class="li" valign="top">&#8226;</td>
+                                <td>Food!</td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+
+                      </table> 
+                      
+                    </td>
+                  </tr> -->
+
+              </table> 
+            </td>
+          </tr>
+      <!-- End Content -->
+
+      <!-- Start Safety -->
+          <tr>
+            <td class="safety">
+              <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+
+                  <!-- <tr>
+                    <td>
+                      <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                          <td class="block" bgcolor="#efefef">
+                            <a href="#"><img class="m-center" src="http://www.placecage.com/c/320/210" alt="" width="320" height="210"></a>
+                          </td>
+                          <td class="block m-p20" bgcolor="#D6E8FF">
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                              <tr>
+                                <td class="h3 pb5" align="center">"COME TO MY PARRRRRTAYYYY!!"</td>
+                              </tr>
+
+                              <tr>
+                                <td>
+                                  <table class="rsvp yahoo-table-fix" align="center" border="0" cellpadding="0" cellspacing="0" width="162">
+                                    <tr>
+                                      <td class="button" bgcolor="#5e0778" align="center"><a href="#RSVP">RSVP&nbsp;here</a></td>
+                                    </tr>
+                                  </table> 
+                                  
+                                </td>
+                              </tr>
+
+                              
+                            </table> 
+                            
+                          </td>
+                        </tr>
+                      </table> 
+                      
+                    </td>
+                  </tr> -->
+
+
+
+              </table> 
+            </td>
+          </tr>
+      <!-- End Safety -->
+
+
+      <!-- Start Footer -->
+           <tr>
+             <td class="footer" bgcolor="#efefef">
+               <table align="center" border="0" cellpadding="20" cellspacing="0" width="100%">
+
+                  <!-- <tr>
+                    <td class="p pb0">This email has been sent to you because you agreed to let Nicky spam you with his house party invites. Click <a class="purple underline" href="#unsubscribe">here</a> to unsubscribe from any further emails.</td>
+                  </tr>
+
+                  <tr>
+                    <td class="p" align="center">Nicolas Cage Party Central - 100 W. Hollywood Hills Dr. Beverly Hills, CA 90210</td>
+                  </tr> -->
+
+               </table> 
+             </td>
+           </tr>
+      <!-- End Footer -->
+
+        </table>
+      </td>
+    </tr>
+
+  </table>
+  <!-- end table wrapper -->
+
+  <!-- Gmail App hack for iOS -->
+  <div style="display:none; white-space:nowrap; font:15px courier; line-height:0;">
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+  </div>  
+  
+</body>
+</html>

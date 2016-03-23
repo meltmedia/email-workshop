@@ -1,0 +1,96 @@
+trtd 
+
+<tr>
+  <td>
+    
+  </td>
+</tr>
+
+tintable
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="">
+
+  Insert Snippet Here 
+  
+</table> 
+<!-- END TABLE BLOCK -->
+
+th1 
+
+<tr>
+  <td class="h1"></td>
+</tr>
+<!-- end h1 header -->
+
+th2 
+
+<tr>
+  <td class="h2"></td>
+</tr>
+<!-- end h2 header -->
+
+th3
+
+<tr>
+  <td class="h3"></td>
+</tr>
+<!-- end h3 header -->
+
+th4 
+
+<tr>
+  <td class="h4"></td>
+</tr>
+<!-- end h4 header -->
+
+th5 
+
+<tr>
+  <td class="h5"></td>
+</tr>
+<!-- end h5 header -->
+
+tp 
+
+<tr>
+  <td class="p"></td>
+</tr>
+<!-- end paragraph -->
+
+tfootnote 
+
+<tr>
+  <td class="footnote"></td>
+</tr>
+<!-- end footnote -->
+
+tul
+
+<tr>
+  <td class="ul">
+    <table border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td class="li" valign="top">&#8226;</td>
+        <td>List Example</td>
+      </tr>
+      <tr>
+        <td class="li" valign="top">&#8226;</td>
+        <td>List Example</td>
+      </tr>
+      <tr>
+        <td class="li" valign="top">&#8226;</td>
+        <td>List Example</td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<!-- end unordered list -->
+
+timg 
+
+<tr>
+  <td class="image">
+    <img src="Image URL" alt="Image description" width="" height=""/>
+  </td>
+</tr>
+<!-- end image -->

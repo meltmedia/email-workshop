@@ -1,0 +1,22 @@
+***************************************
+
+Helpful websites used in this workshop
+
+***************************************
+
+Putsmail inliner: 
+https://putsmail.com/inliner
+
+Putsmail testing:
+https://putsmail.com/
+
+Placeholder image path:
+http://www.placecage.com/c/600/200
+
+Google fonts:
+https://www.google.com/fonts
+
+Color hex codes helpful website:
+http://colllor.com/
+
+
