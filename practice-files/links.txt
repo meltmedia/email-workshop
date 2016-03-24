@@ -19,4 +19,17 @@ https://www.google.com/fonts
 Color hex codes helpful website:
 http://colllor.com/
 
+***************************************
+
+Published litmus tests:
+
+***************************************
+
+Phase 1
+https://litmus.com/pub/33e6946
+
+Phase 2
+https://litmus.com/pub/8793ea5
+
+
 
