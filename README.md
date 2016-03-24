@@ -28,3 +28,4 @@ We'll also be doing some hands on training building an email from scratch!
 * http://reallygoodemails.com/resources/
 * https://litmus.com/blog/
 * https://github.com/jonathandion/awesome-emails
+* https://www.campaignmonitor.com/css/
