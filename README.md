@@ -5,7 +5,7 @@ Welcome to the wonderful world of email. In this workshop we'll be discussing to
 * Email best practices 
 * Development
 * Responsive styling
-* HTML/CSS guidlines
+* HTML/CSS guidelines
 * Testing 
 * Automation tooling
 
@@ -29,3 +29,4 @@ We'll also be doing some hands on training building an email from scratch!
 * https://litmus.com/blog/
 * https://github.com/jonathandion/awesome-emails
 * https://www.campaignmonitor.com/css/
+* https://putsmail.com/
