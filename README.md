@@ -1,3 +1,5 @@
+### You have successfully pulled! Good job!
+
 # email-workshop
 
 Welcome to the wonderful world of email. In this workshop we'll be discussing topics like:
