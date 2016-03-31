@@ -33,3 +33,5 @@ We'll also be doing some hands on training building an email from scratch!
 * https://github.com/jonathandion/awesome-emails
 * https://www.campaignmonitor.com/css/
 * https://putsmail.com/
+* https://litmus.com/help/email-clients/rendering-engines/
+* https://litmus.com/blog/a-guide-to-bulletproof-buttons-in-email-design
