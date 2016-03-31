@@ -25,6 +25,7 @@ We'll also be doing some hands on training building an email from scratch!
 
 ## Helpful Resources 
 
+* https://docs.google.com/presentation/d/1fMwdvpug3sUO8ieKr5n0eMfsQLg2eUPgTH-oTy75BOE/edit?usp=sharing
 * https://github.com/Email-builder
 * http://responsiveemailresources.com/
 * http://reallygoodemails.com/resources/
