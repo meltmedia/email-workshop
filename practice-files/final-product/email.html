@@ -1,52 +1,57 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-
-  <style>
+    <style>
 @font-face {
   font-family: 'Sigmar One';
   font-style: normal;
   font-weight: 400;
-  src: local('Sigmar One'), local('SigmarOne'), url(https://fonts.gstatic.com/s/sigmarone/v6/aRAZJs6CY7SV6eSg6Wx4jy3USBnSvpkopQaUR-2r7iU.ttf) format('truetype');
+  src: local('Sigmar One Regular'), local('SigmarOne-Regular'), url(https://fonts.gstatic.com/s/sigmarone/v7/aRAZJs6CY7SV6eSg6Wx4jy3USBnSvpkopQaUR-2r7iU.ttf) format('truetype');
 }
 
 </style>
 
-  <!-- Support Unicode characters  -->
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- Support Unicode characters  -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-  <!-- Target IE10 phones -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  
-  <!-- Control layout for mobile browsers -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-  <!-- <title></title> -->
-  <title>Nicky's House Party</title>
-
-  <!-- CSS in this style block will be inlined -->
-  
+    <!-- Target IE10 phones -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
-  <!-- CSS in this style block will stay embedded and not inlined -->
-  <style type="text/css">
+    <!-- Control layout for mobile browsers -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- <title></title> -->
+    <title>Nicky's House Party</title>
+
+    <!-- CSS in this style block will be inlined -->
+    
+    <!--[if gte mso 9]>
+        <style>
+          sup { font-size: 100% !important; }
+        </style> 
+      <![endif]-->
+    
+    <!-- CSS in this style block needs to be embedded (not inlined) -->
+    <style type="text/css">
 
     /***************************************
                 GLOBAL STYLES
     ****************************************/
 
-    table { font-size: inherit; }
-    /* Prevent user agent from overriding font size e.g. Thunderbird, Lotus Notes 8.5, AOL*/
-
-    * { line-height: inherit; }
-    /* Prevent Outlook.com from overriding line-height */
-  
-    body {
+    body,
+    .main-td {
       font-family: Helvetica, Arial, sans-serif;
       font-size: 12px;
       color: #000001;
       line-height: 16px;
     }
     /* Render font family properly in Outlook */
+
+    table { font-size: inherit; }
+    /* Prevent user agent from overriding font size e.g. Thunderbird, Lotus Notes 8.5, AOL*/
+
+    * { line-height: inherit; }
+    /* Prevent Outlook.com from overriding line-height */
 
     table td {border-collapse: collapse; /*mso-line-height-rule: exactly;*/ }
     /* Outlook 07, 10 Padding issue fix
@@ -62,6 +67,20 @@
     }
     /* Disguises iOS auto links */
 
+    .mobile-only td, 
+    .mobile-only table { mso-hide:all;}
+    /* Fix to hide elements in Outlook 2007-13 issue */
+
+    .mobile-only { display: none; max-height:0px; overflow:hidden; }
+
+   /***************************************
+          UNRESPONSIVE MOBILE STYLES
+    ****************************************/
+    
+    /*@media only screen and (max-width: 37.5em) {
+      .main-table { padding-left: 5px !important; padding-right: 5px !important; }
+    }*/
+
     /***************************************
                MOBILE STYLES
     ****************************************/
@@ -74,50 +93,38 @@
       .main-table table { width:100% !important; margin: 0 auto !important; }
       
       .block, 
-      .content, 
-      .safety { display: block; }
+      .content { display: block; }
       /* place content you want stacked here */
 
-      .hide { display:none !important; }
+      .desktop-only { display:none !important; }
       /* hide elements for mobile */
 
       img { max-width: 100% !important; height: auto !important; }
       /* large images resize down according to their parent container size */
 
-      .m-hide,
-      .m-hide img { 
-        visibility: visible !important;
-        font-size: 100% !important; 
-        display: block !important; 
-        max-height: none !important;
-        line-height: 1.5 !important;
-      }
+      .mobile-only { display: block !important; max-height: none !important; overflow: visible !important; }
 
-      .m-hide li { display: list-item !important;}
-      .h1 { font-size: 28px !important; line-height: 32px !important; }
+      .width-auto { width: auto !important; height: auto !important; }
+
+      .h1 { font-size: 32px !important; line-height: 36px !important; }
       .h2 { font-size: 22px !important; line-height: 26px !important; }
       .content { padding-left: 20px !important; padding-right: 20px !important; }
       .m-p20 { padding: 20px !important; }
+      .m-pt10 { padding-top: 10px !important; }
       .main-table .rsvp { width: 162px !important; }
       .m-center { margin: 0 auto !important; }
-      
+       
     }
-  </style>
-
-  <!--[if gte mso 9]>
-    <style>
-      sup { font-size: 100% !important; }
-    </style> 
-  <![endif]-->
+    </style>
     
 </head>
-<body style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; margin: 0; padding: 0; width: 100%;">
+<body style="width: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; margin: 0; padding: 0;">
 <span class="preheader-text" style="display: none; font-size: 0; max-height: 0; line-height: 0; visibility: hidden;">You're invited to Nicky's party! ALL THE TIME! Please RSVP! Come to Nicky's party and don't forget to bring your bounce house!</span>
 
   <table align="center" border="0" cellpadding="0" cellspacing="0" id="backgroundTable" width="100%" style="margin: 0; padding: 0; width: 100%; line-height: 100%;">
 
     <tr>
-      <td class="main-td" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; color: #000001; line-height: 16px; min-width: 600px;">
+      <td class="main-td" style="min-width: 600px;">
         <table class="yahoo-table-fix main-table" align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="margin: 0 auto;">
 
       <!-- Start Preheader -->
@@ -225,25 +232,12 @@
                     </td>
                   </tr>
 
-              </table> 
-            </td>
-          </tr>
-      <!-- End Content -->
-
-      <!-- Start Safety -->
-          <tr>
-            <td class="safety">
-              <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
-
-                 <!-- <tr><td>ADD SAFETY CONTENT</td></tr> -->
-                  <!-- DELETE THIS ROW AND ADD YOUR OWN!!! -->
-
                   <tr>
                     <td>
                       <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
                         <tr>
-                          <td class="block" bgcolor="#efefef">
-                            <a href="#"><img class="m-center" src="http://www.placecage.com/c/320/210" alt="" width="320" height="210" style="display: block; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; font-size: 10px; border: none;"></a>
+                          <td class="block force-block m-pt10" bgcolor="#D6E8FF">
+                            <a href="#"><img class="m-center" src="http://www.placecage.com/c/320/210" alt="" width="320" height="210" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; font-size: 10px; border: none; display: block;"></a>
                           </td>
                           <td class="block m-p20" bgcolor="#D6E8FF">
                             <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -275,20 +269,21 @@
                       
                     </td>
                   </tr>
+
               </table> 
             </td>
           </tr>
-      <!-- End Safety -->
+      <!-- End Content -->
       <!-- Start Footer -->
            <tr>
-             <td class="footer" bgcolor="#efefef">
-               <table align="center" border="0" cellpadding="20" cellspacing="0" width="100%">
+             <td class="footer p20" bgcolor="#efefef" style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px;">
+               <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
                   
                   <!-- <tr><td>ADD FOOTER CONTENT</td></tr> -->
                   <!-- DELETE THIS ROW AND ADD YOUR OWN!!! -->
 
                   <tr>
-                    <td class="p pb0" style="padding-bottom: 0px;">This email has been sent to you because you agreed to let Nicky spam you with his house party invites. Click <a class="purple underline" href="#unsubscribe" style="text-decoration: underline; color: #5e0778;">here</a> to unsubscribe from any further emails.</td>
+                    <td class="p pb20" style="padding-bottom: 20px;">This email has been sent to you because you agreed to let Nicky spam you with his house party invites. Click <a class="purple underline" href="#unsubscribe" style="text-decoration: underline; color: #5e0778;">here</a> to unsubscribe from any further emails.</td>
                   </tr>
                   <!-- end paragraph -->
 

@@ -1,109 +1,92 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+    <link href="https://fonts.googleapis.com/css?family=Sigmar+One" data-embed rel="stylesheet" type="text/css">
 
-  <link href="https://fonts.googleapis.com/css?family=Sigmar+One" data-embed rel="stylesheet" type="text/css">
+    <!-- Support Unicode characters  -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-  <!-- Support Unicode characters  -->
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- Target IE10 phones -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    
+    <!-- Control layout for mobile browsers -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
-  <!-- Target IE10 phones -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  
-  <!-- Control layout for mobile browsers -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <!-- <title></title> -->
+    <title>Nicky's House Party</title>
 
-  <!-- <title></title> -->
-  <title>Nicky's House Party</title>
-
-  <!-- CSS in this style block will be inlined -->
-  <style type="text/css">
+    <!-- CSS in this style block will be inlined -->
+    <style type="text/css">
     /***************************************
                 GLOBAL STYLES
     ****************************************/
-      
-      .main-td { 
-        font-family: Helvetica, Arial, sans-serif;
-        font-size: 12px;
-        color: #000001;
-        line-height: 16px;
-        min-width: 600px;/*android fix*/
-      }
-      
-      /* Header styles */
-      /*.h1 { font-size: 22px; line-height: 26px; color: #003479; font-weight: bold; }*/
-      .h1 { font-size: 52px; line-height: 56px; color: #003479; font-family: 'Sigmar One', sans-serif; font-weight: bold; }
-      /*.h2 { font-size: 16px; line-height: 20px; color: #003479; font-weight: bold; }*/
-      .h2 { font-size: 30px; line-height: 34px; color: #000001; font-weight: bold; text-decoration: underline; }
-      /*.h3 { font-size: 14px; line-height: 18px; color: #003479; font-weight: bold; }*/
-      .h3 { font-size: 24px; line-height: 28px; color: #003479; font-weight: bold; }
-      .h4 { font-size: 12px; line-height: 16px; color: #003479; font-weight: bold; }
-      .h5 { font-size: 10px; line-height: 14px; color: #003479; font-weight: bold; }
+     .main-td {
+       min-width: 600px;/*android fix*/
+     }
 
-      .p,
-      .ul { padding-bottom: 15px; }
+     /* Header styles */
+     /*.h1 { font-size: 22px; line-height: 26px; color: #003479; font-weight: bold; }*/
+     .h1 { font-size: 52px; line-height: 56px; color: #003479; font-family: 'Sigmar One', sans-serif; font-weight: bold; }
+     /*.h2 { font-size: 16px; line-height: 20px; color: #003479; font-weight: bold; }*/
+     .h2 { font-size: 30px; line-height: 34px; color: #000001; font-weight: bold; text-decoration: underline; }
+     /*.h3 { font-size: 14px; line-height: 18px; color: #003479; font-weight: bold; }*/
+     .h3 { font-size: 24px; line-height: 28px; color: #003479; font-weight: bold; }
+     .h4 { font-size: 12px; line-height: 16px; color: #003479; font-weight: bold; }
+     .h5 { font-size: 10px; line-height: 14px; color: #003479; font-weight: bold; }
 
-      /*content paragraph styles*/
-      .content .p,
-      .content .ul td { font-size: 22px; line-height: 26px; color: #000001; font-weight: bold; }
+     .p,
+     .ul { padding-bottom: 15px; }
 
-      .li { width: 1px; } /* prevent <td> width from expanding */
-      .ul .li { padding-right: 5px; }
+     /*content paragraph styles*/
+     .content .p,
+     .content .ul td { font-size: 22px; line-height: 26px; color: #000001; font-weight: bold; }
 
-      .ul .ul { padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 10px; }
-      .ul tr:first-child .li + td { width: 100%;}
+     .li { width: 1px; } /* prevent <td> width from expanding */
+     .ul .li { padding-right: 5px; }
 
-      .hr {
-        background-color: #b3b3b3;
-        display: block;
-        font-size: 0px;
-        height: 1px;
-        line-height: 0px;
-        padding: 0;
-      }
-      /* horizontal rule */
- 
-      .footnote,
-      .footnote table { font-size: 10px; line-height: 13px; }
+     .ul .ul { padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 10px; }
+     .ul tr:first-child .li + td { width: 100%; }
 
-      sup { line-height: 0; font-size: 75%; }
-      .no-underline { text-decoration: none; }
-      .underline { text-decoration: underline; }
-      .bold { font-weight: bold; }
-      .no-link { color: #000001; text-decoration: none; cursor: text; }
+     .hr {
+       background-color: #b3b3b3;
+       display: block;
+       font-size: 0px;
+       height: 1px;
+       line-height: 0px;
+       padding: 0;
+     }
+     /* horizontal rule */
+    
+     .footnote,
+     .footnote table { font-size: 10px; line-height: 13px; }
 
-      .black { color: #000001; }  
-      .white { color: #ffffff; }
-      .purple { color: #5e0778; }
+     sup { line-height: 0; font-size: 75%; }
+     .no-underline { text-decoration: none; }
+     .underline { text-decoration: underline; }
+     .bold { font-weight: bold; }
+     .no-link { color: #000001; text-decoration: none; cursor: text; }
+     .mobile-only { display: none; max-height:0px; overflow:hidden; }
 
-      .button { font-size: 18px; line-height: 22px; border: 1px solid #5e0778; }
+     .black { color: #000001; }  
+     .white { color: #ffffff; }
+     .purple { color: #5e0778; }
 
-      /*.button { border: 1px solid #711471; }*/
+     .button { font-size: 18px; line-height: 22px; border: 1px solid #5e0778; }
 
-      /*.button a { 
-        color: #ffffff;  
-        text-decoration: none; 
-        display: inline-block; 
-        padding-top: 5px; 
-        padding-right: 25px; 
-        padding-left: 25px; 
-        padding-bottom: 5px; 
-        border: 1px solid #711471;*/ /*border hack needed for outlook clients*/
-     /* }*/
+     .button a { 
+       color: #ffffff;  
+       text-decoration: none; 
+       display: inline-block; 
+       padding-top: 5px; 
+       padding-right: 30px; 
+       padding-left: 30px; 
+       padding-bottom: 5px; 
+       border: 1px solid #5e0778; /*border hack needed for outlook clients*/
+     }
 
-      .button a { 
-        color: #ffffff;  
-        text-decoration: none; 
-        display: inline-block; 
-        padding-top: 5px; 
-        padding-right: 30px; 
-        padding-left: 30px; 
-        padding-bottom: 5px; 
-        border: 1px solid #5e0778; /*border hack needed for outlook clients*/
-      }
-
-      .webversion { font-size: 10px; line-height: 14px; color: #aeb4b7; }
-      .yahoo-table-fix { margin: 0 auto; }
+     .webversion { font-size: 10px; line-height: 14px; color: #aeb4b7; }
+     .yahoo-table-fix { margin: 0 auto; }
+     .force-block a img { display: block; }
       
     /***************************************
                  SPACING STYLES 
@@ -190,21 +173,12 @@
             CLIENT SPECIFIC STYLES
     ****************************************/
 
-    .yahoo-table-fix { margin: 0 auto; }
-    /*fixes table width issue in yahoo*/
-
     /* Use on td's if you need to match line-height. NOTE: Use only on td's with text */
     .mso-exact { mso-line-height-rule: exactly; }
 
-    .m-hide li{ display: inline; mso-hide:all;}
-    /* Fix Firefox Gmail and Outlook 2007-13 issue */
-
-    .m-hide img { max-height: 0; width: 0; font-size: 0; }
-    /* Used to hide images for mobile */
-
-    .m-hide,
-    .preheader-text { display: none; font-size: 0; max-height: 0; line-height: 0; visibility: hidden;}
-    /* Used to hide elements for mobile */  
+    .preheader-text,
+    .hide-all { display: none; font-size: 0; max-height: 0; line-height: 0; visibility: hidden;}
+    /* Used to hide elements for mobile */      
 
     #outlook a {padding:0;} 
     /* Force Outlook to provide a "view in browser" menu link. */
@@ -216,31 +190,39 @@
     /* end reset */
 
     img {display:block; outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; font-size: 10px;} 
-    a img { border:none; }
+    a img { border:none; display: inline-block; }
     /* Some sensible defaults for images*/
 
-  </style>
+
+
+    </style>
+    <!--[if gte mso 9]>
+        <style>
+          sup { font-size: 100% !important; }
+        </style> 
+      <![endif]-->
     
-  <!-- CSS in this style block will stay embedded and not inlined -->
-  <style type="text/css" data-embed>
+    <!-- CSS in this style block needs to be embedded (not inlined) -->
+    <style type="text/css" data-embed>
 
     /***************************************
                 GLOBAL STYLES
     ****************************************/
 
-    table { font-size: inherit; }
-    /* Prevent user agent from overriding font size e.g. Thunderbird, Lotus Notes 8.5, AOL*/
-
-    * { line-height: inherit; }
-    /* Prevent Outlook.com from overriding line-height */
-  
-    body {
+    body,
+    .main-td {
       font-family: Helvetica, Arial, sans-serif;
       font-size: 12px;
       color: #000001;
       line-height: 16px;
     }
     /* Render font family properly in Outlook */
+
+    table { font-size: inherit; }
+    /* Prevent user agent from overriding font size e.g. Thunderbird, Lotus Notes 8.5, AOL*/
+
+    * { line-height: inherit; }
+    /* Prevent Outlook.com from overriding line-height */
 
     table td {border-collapse: collapse; /*mso-line-height-rule: exactly;*/ }
     /* Outlook 07, 10 Padding issue fix
@@ -256,6 +238,20 @@
     }
     /* Disguises iOS auto links */
 
+    .mobile-only td, 
+    .mobile-only table { mso-hide:all;}
+    /* Fix to hide elements in Outlook 2007-13 issue */
+
+    .mobile-only { display: none; max-height:0px; overflow:hidden; }
+
+   /***************************************
+          UNRESPONSIVE MOBILE STYLES
+    ****************************************/
+    
+    /*@media only screen and (max-width: 37.5em) {
+      .main-table { padding-left: 5px !important; padding-right: 5px !important; }
+    }*/
+
     /***************************************
                MOBILE STYLES
     ****************************************/
@@ -268,41 +264,29 @@
       .main-table table { width:100% !important; margin: 0 auto !important; }
       
       .block, 
-      .content, 
-      .safety { display: block; }
+      .content { display: block; }
       /* place content you want stacked here */
 
-      .hide { display:none !important; }
+      .desktop-only { display:none !important; }
       /* hide elements for mobile */
 
       img { max-width: 100% !important; height: auto !important; }
       /* large images resize down according to their parent container size */
 
-      .m-hide,
-      .m-hide img { 
-        visibility: visible !important;
-        font-size: 100% !important; 
-        display: block !important; 
-        max-height: none !important;
-        line-height: 1.5 !important;
-      }
+      .mobile-only { display: block !important; max-height: none !important; overflow: visible !important; }
 
-      .m-hide li { display: list-item !important;}
-      .h1 { font-size: 28px !important; line-height: 32px !important; }
+      .width-auto { width: auto !important; height: auto !important; }
+
+      .h1 { font-size: 32px !important; line-height: 36px !important; }
       .h2 { font-size: 22px !important; line-height: 26px !important; }
       .content { padding-left: 20px !important; padding-right: 20px !important; }
       .m-p20 { padding: 20px !important; }
+      .m-pt10 { padding-top: 10px !important; }
       .main-table .rsvp { width: 162px !important; }
       .m-center { margin: 0 auto !important; }
-      
+       
     }
-  </style>
-
-  <!--[if gte mso 9]>
-    <style>
-      sup { font-size: 100% !important; }
-    </style> 
-  <![endif]-->
+    </style>
     
 </head>
 <body>
@@ -421,24 +405,11 @@
                     </td>
                   </tr>
 
-              </table> 
-            </td>
-          </tr>
-      <!-- End Content -->
-
-      <!-- Start Safety -->
-          <tr>
-            <td class="safety">
-              <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
-
-                 <!-- <tr><td>ADD SAFETY CONTENT</td></tr> -->
-                  <!-- DELETE THIS ROW AND ADD YOUR OWN!!! -->
-
                   <tr>
                     <td>
                       <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
                         <tr>
-                          <td class="block" bgcolor="#efefef">
+                          <td class="block force-block m-pt10" bgcolor="#D6E8FF">
                             <a href="#"><img class="m-center" src="http://www.placecage.com/c/320/210" alt="" width="320" height="210"></a>
                           </td>
                           <td class="block m-p20" bgcolor="#D6E8FF">
@@ -472,24 +443,22 @@
                     </td>
                   </tr>
 
-
-
               </table> 
             </td>
           </tr>
-      <!-- End Safety -->
+      <!-- End Content -->
 
 
       <!-- Start Footer -->
            <tr>
-             <td class="footer" bgcolor="#efefef">
-               <table align="center" border="0" cellpadding="20" cellspacing="0" width="100%">
+             <td class="footer p20" bgcolor="#efefef">
+               <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
                   
                   <!-- <tr><td>ADD FOOTER CONTENT</td></tr> -->
                   <!-- DELETE THIS ROW AND ADD YOUR OWN!!! -->
 
                   <tr>
-                    <td class="p pb0">This email has been sent to you because you agreed to let Nicky spam you with his house party invites. Click <a class="purple underline" href="#unsubscribe">here</a> to unsubscribe from any further emails.</td>
+                    <td class="p pb20">This email has been sent to you because you agreed to let Nicky spam you with his house party invites. Click <a class="purple underline" href="#unsubscribe">here</a> to unsubscribe from any further emails.</td>
                   </tr>
                   <!-- end paragraph -->
 

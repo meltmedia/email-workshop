@@ -4,8 +4,8 @@ Helpful websites used in this workshop
 
 ***************************************
 
-Putsmail inliner: 
-https://putsmail.com/inliner
+Mailchimp inliner: 
+http://templates.mailchimp.com/resources/inline-css/
 
 Putsmail testing:
 https://putsmail.com/
@@ -21,12 +21,8 @@ http://colllor.com/
 
 ***************************************
 
-Published litmus tests:
+Helpful articles about html emails
 
 ***************************************
 
-Phase 1
-https://litmus.com/pub/33e6946
-
-Phase 2
-https://litmus.com/pub/8793ea5
+https://www.smashingmagazine.com/2017/01/introduction-building-sending-html-email-for-web-developers/
