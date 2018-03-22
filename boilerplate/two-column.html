@@ -49,10 +49,6 @@ https://github.com/meltmedia/campaign-monitor/tree/master/_campaign-monitor-boil
 ==========================================
 Snippet         |  Comparable HTML Element
 ==========================================
-cm-single       | campaign monitor single column layout
-cm-two          | campaign monitor two column layout
-ramp-single     | ramp single column layout
-ramp-two        | ramp two column layout
 th1             | H1 header
 th1             | H1 header
 th2             | H2 header
@@ -144,6 +140,10 @@ References:
                 GLOBAL STYLES
     ****************************************/
       .main-td {
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        color: #000001;
+        line-height: 16px;
         min-width: 600px;/*android fix*/
       }
 
@@ -180,7 +180,7 @@ References:
       .footnote table { font-size: 10px; line-height: 13px; }
 
 
-      sup { line-height: 0; font-size: 75%; }
+      sup, sub { line-height: 0; font-size: 75%; }
       .webversion { color: #aeb4b7; font-size:10px; text-decoration:underline; }
       .linkDivider { font-weight: lighter; padding-left: 6px; padding-right: 6px; }
       .no-underline { text-decoration: none; }
@@ -213,9 +213,6 @@ References:
         padding-bottom: 5px; 
         border: 1px solid #711471; /*border hack needed for outlook clients*/
       }
-
-      /*.border table { border-top: 1px solid; border-left: 1px solid; } */
-      /*.border td {  border-bottom: 1px solid; border-right: 1px solid; } */
       
     /***************************************
                  SPACING STYLES 
@@ -331,8 +328,7 @@ References:
                 GLOBAL STYLES
     ****************************************/
 
-    body,
-    .main-td {
+    body {
       font-family: Helvetica, Arial, sans-serif;
       font-size: 12px;
       color: #000001;
@@ -367,20 +363,12 @@ References:
     .mobile-only { display: none; max-height:0px; overflow:hidden; }
 
     /***************************************
-           UNRESPONSIVE MOBILE STYLES
-     ****************************************/
-     
-     /*@media only screen and (max-width: 37.5em) {
-       .main-table { padding-left: 5px !important; padding-right: 5px !important; }
-     }*/
-
-    /***************************************
                MOBILE STYLES
     ****************************************/
     
     @media only screen and (max-width: 37.5em) {
 
-      .main-table { width: 95% !important; }
+      .main-table { width: 100% !important; }
       .main-td { min-width: initial !important; }
 
       .main-table table { width:100% !important; margin: 0 auto !important; }
@@ -405,7 +393,7 @@ References:
     </style>
     <!--[if gte mso 9]>
         <style>
-          sup { font-size: 100% !important; }
+          sup, sub { font-size: 100% !important; }
         </style> 
       <![endif]-->
 
@@ -424,9 +412,9 @@ References:
               <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
                 <tr>
                   <td align="center">
-                    <webversion class="webversion">
-                      <span>view web and mobile version </span>
-                    </webversion>
+                    <a href="#webversion-placeholder" class="webversion">
+                      <span>view web and mobile version</span>
+                    </a>
                   </td>
                 </tr>
               </table>

@@ -26,3 +26,67 @@ Helpful articles about html emails
 ***************************************
 
 https://www.smashingmagazine.com/2017/01/introduction-building-sending-html-email-for-web-developers/
+
+https://litmus.com/blog/
+
+https://emailmonks.com/blog/
+
+https://www.emailonacid.com/blog
+
+https://kb.mailchimp.com/templates/layouts-and-themes/create-a-template-with-the-template-builder
+
+***************************************
+
+Helpful Sublime Text snippets 
+
+***************************************
+
+Wrapping items with tags:
+Ctrl + Shift + w
+
+Hide the side bar:
+Cmd + k + b
+
+Jump to front of line:
+Cmd + Left arrow
+
+Jump to end of line:
+Cmd + Right arrow
+
+Select entire line:
+Ctrl + l
+
+Find line number:
+Ctrl + g
+
+Comment out line:
+Cmd + /
+
+Indent line:
+Cmd + ] 
+
+Un-indent line:
+Cmd + [
+
+Paste with indentation: 
+Cmd + Shift + v
+
+Split panes:
+Cmd + Option + #
+
+Find:
+Cmd + f
+
+Multiple selection:
+Cmd + d
+
+Multiple cursors:
+Cmd + click
+
+
+
+
+
+
+
+
