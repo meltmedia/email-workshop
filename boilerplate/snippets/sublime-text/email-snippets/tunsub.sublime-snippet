@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[
+https://interactive.genentech.com/subscription/subscribers/[REF_NUM]/optout/index.html?shortLink=unsubscribe&productCode=[PROD_CD]
+]]></content>
+<tabTrigger>tunsub</tabTrigger>
+</snippet>

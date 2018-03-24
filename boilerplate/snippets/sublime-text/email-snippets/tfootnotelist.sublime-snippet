@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
 <tr>
-  <td class="footnote">
+  <td class="footnote-list">
     <table border="0" cellpadding="0" cellspacing="0">
       <tr>
         <td class="li" valign="top"><sup>&#167;</sup></td>

@@ -4,7 +4,10 @@
 <tr class="mobile-only">
   <td class="mobile-only">
     <div class="mobile-only">
-      ${1:Insert Mobile HTML Here Bro!}
+      <table class="mobile-only" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+        ${1:Insert Mobile HTML Here Bro!}
+      </table> 
+      <!-- END TABLE BLOCK -->
     </div>
   </td>
 </tr>

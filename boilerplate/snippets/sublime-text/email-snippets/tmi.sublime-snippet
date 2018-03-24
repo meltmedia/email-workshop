@@ -1,0 +1,26 @@
+<snippet>
+  <content><![CDATA[
+<!-- Begin Mobile Content -->
+<tr class="mobile-only">
+  <td class="mobile-only">
+    <div class="mobile-only">
+      <table class="mobile-only" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+          <td>
+            <img class="width-auto" src="${1:Image URL}" alt="${2:Image Description}" width="0" height="0"/>
+          </td>
+        </tr>
+        <!-- end image -->
+      </table> 
+      <!-- END TABLE BLOCK -->
+      
+    </div>
+  </td>
+</tr>
+<!-- End Mobile Content -->
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>tmi</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>
